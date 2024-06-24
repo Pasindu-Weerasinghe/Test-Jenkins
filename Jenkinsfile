@@ -7,5 +7,10 @@ pipeline {
                 echo 'Hello, World!'
             }
         }
+        stage('Welcome to CI CD') {
+            steps {
+                echo 'Hello, Pasindu!'
+            }
+        }
     }
 }
